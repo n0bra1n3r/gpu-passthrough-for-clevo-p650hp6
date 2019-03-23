@@ -194,7 +194,7 @@ $ lspci -nnk -s 01:00.0
   Kernel modules: nouveau, nvidia_drm, nvidia
 ```
 
-2 vbios ROMs were saved using `TechPowerUp GPU-z v2.16.0` on a fully updated installation of Windows 10, prior to installation of linux. `GP106-mshybrid.rom` was saved with `mshybrid` mode enabled in the laptop's BIOS, and `GP106-discrete.rom` was saved in `discrete` mode. A third ROM `GP106-mshybrid_updGOP.rom` was generated using the [GOPUpd python script][] to enable UEFI in the `mshybrid` vbios.
+2 vbios ROMs were saved using `TechPowerUp GPU-z v2.16.0` on a fully updated installation of Windows 10, prior to installation of linux. `GP106-mshybrid.rom` was saved with `mshybrid` mode enabled in the laptop's BIOS, and `GP106-discrete.rom` was saved in `discrete` mode. A third ROM `GP106-mshybrid_updGOP.rom` was generated using the GOPUpd python script to enable UEFI in the `mshybrid` vbios.
 
 ```text
 $ ./rom-parser/rom-parser clevo-p650hp6/GP106-mshybrid.rom
