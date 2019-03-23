@@ -65,7 +65,12 @@ https://gist.github.com/Misairu-G/616f7b2756c488148b7309addc940b28
     ```text
     $ cd ~/virt
     ```
-* Download the latest NVidia graphics driver for Windows into the `drivers/windows` directory.
+* Download the latest NVidia graphics driver for Windows into the `drivers/windows/` directory.
+* Download the latest `virtio` drivers into the `resources/` directory.
+* Copy the EFI vars file into the `resources/` directory.
+    ```text
+    $ cp /usr/share/ovmf/x64/OVMF_VARS.fd resources/
+    ```
 * Generate a disk image containing the NVidia graphics driver for the QEMU boot script to use.
     ```text
     $ ./gen-win-drivers-iso.sh
