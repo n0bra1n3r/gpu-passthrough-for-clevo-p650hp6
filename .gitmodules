@@ -1,0 +1,3 @@
+[submodule "roms/rom-parser"]
+	path = roms/rom-parser
+	url = https://github.com/awilliam/rom-parser.git
